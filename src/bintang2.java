@@ -15,7 +15,10 @@ public class bintang2 {
             for(int k=1;k<=i;k++){ //bintang
                 System.out.print("i");
             }
-            
+            for (int l=1;l<=i-1;l++){
+                System.out.print("i");
+            }
+            System.out.println();
         }
         
     }
