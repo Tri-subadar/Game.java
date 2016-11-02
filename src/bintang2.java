@@ -8,5 +8,12 @@ public class bintang2 {
         System.out.println("Tentukan panjang karakter : ");
         panjang = input.nextInt();
         
+        for (int i=1;i<=panjang;i++){
+            for(int j=panjang;j>=i;j--){ //spasi
+                System.out.print(" ");
+            }
+            
+        }
+        
     }
 }
