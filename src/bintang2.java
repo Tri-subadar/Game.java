@@ -12,6 +12,9 @@ public class bintang2 {
             for(int j=panjang;j>=i;j--){ //spasi
                 System.out.print(" ");
             }
+            for(int k=1;k<=i;k++){ //bintang
+                System.out.print("i");
+            }
             
         }
         
