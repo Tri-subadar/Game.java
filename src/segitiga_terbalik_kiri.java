@@ -21,7 +21,10 @@ public class segitiga_terbalik_kiri {
             for(int j=panjang;j>=i;j--){
                 System.out.print("j");
             }
-               
+                System.out.println("");
+            }
+        }
+        
         }
     }
     
