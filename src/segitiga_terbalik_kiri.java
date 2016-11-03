@@ -12,6 +12,8 @@ import java.util.Scanner;
  * @author user
  */
 public class segitiga_terbalik_kiri {
-    
+    public static void main (String[] args) {
+         
+    }
     
 }
