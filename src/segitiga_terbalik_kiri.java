@@ -24,7 +24,14 @@ public class segitiga_terbalik_kiri {
                 System.out.println("");
             }
         }
-        
+        private static class args {
+            public args(){
+        }
+    }
+
+    private static class car {
+
+        public car() {
         }
     }
     
