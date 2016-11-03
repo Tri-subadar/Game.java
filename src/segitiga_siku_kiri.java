@@ -13,6 +13,11 @@ import java.util.Scanner;
  */
 public class segitiga_siku_kiri {
     public static void main(String[] args) {
-         
+         Scanner input = new Scanner (System.in);
+        System.out.println("Masukkan panjang karakter : ");
+        int panjang = input.nextInt();
+        
+       
+    }
 }
 }
