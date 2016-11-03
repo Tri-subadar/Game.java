@@ -18,6 +18,15 @@ public class segitiga {
         int panjang = input.nextInt();
         for (int b=panjang; b>=0; b--)
         {
+            for (int k=0; k<=b; k++)
+            {
+        System.out.print("k");
+        
+            }
+            System.out.println("");
+            for (int o=panjang; o>=b; o--)
+            {System.out.print(" ");
+            }
         }
     }
 }
