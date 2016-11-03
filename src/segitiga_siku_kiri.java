@@ -17,7 +17,11 @@ public class segitiga_siku_kiri {
         System.out.println("Masukkan panjang karakter : ");
         int panjang = input.nextInt();
         
-       
+        for (int i =0;i<=panjang;i++) {
+            for (int k = 0; i > k; k++) {
+            System.out.print("k");
+        }
+        System.out.println("");
     }
 }
 }
