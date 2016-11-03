@@ -17,7 +17,12 @@ public class segitiga_terbalik_kiri {
         System.out.println("Masukkan panjang karakter : ");
         int panjang = input.nextInt();
         
-        
+        for (int i=0;i<=panjang;i++){
+            for(int j=panjang;j>=i;j--){
+                System.out.print("j");
+            }
+               
+        }
     }
     
 }
