@@ -26,5 +26,14 @@ import java.util.Random;
  */
 
 public class game {
-   
+    public static void main(String[] args) {
+        ArrayList <String> namaPemain = new ArrayList<>(); 
+        ArrayList <Integer> sekorPermainan = new ArrayList<>(); 
+        /*
+        System.out.println("Anda mempunyai kesempatan menebak 5 kali.");
+                    int AngKaAcak=angkaRandom.nextInt(Pang); 
+                    for(Kout=0;Kout<=5;Kout++){
+        */
+       
+    }
 }
