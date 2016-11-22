@@ -80,5 +80,21 @@ public class game {
                             System.out.println("GAMEOVER! Gagal");
                             CekGameOver++; 
                         }
-                        
+                        else{  
+                            System.out.println("Tebakan Anda ? " + AngKaAcak);
+                            int AkuTeb=input2.nextInt(); 
+                            int Kurang=4-Kout;
+                            if(AkuTeb==AngKaAcak){
+                                if(Kout==0){
+                                    NilaiPasJalan=PiLevel*100; 
+                                     }
+                                /*
+                                System.out.println("Anda mempunyai kesempatan menebak 5 kali.")
+                                else if(Kout==1){
+                                    NilaiPasJalan=PiLevel*70; 
+                                        }
+                   
+      
+                                */
+                                   
 }
