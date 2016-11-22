@@ -153,5 +153,13 @@ public class game {
                     
                    
                     */
+                    else{
+                    aKumulasi[StarNilaiO]=NilaiPasJalan;    
+                    System.out.println("Ketik 'next' dan tekan enter untuk lanjut ke Level berikutnya atau ketik 'exit' untuk keluar : ");
+                    nextLevel=input.nextLine();
+                    PiLevel++; 
                     
+                    }
+                   
+               
 }
