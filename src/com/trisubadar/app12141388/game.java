@@ -34,6 +34,16 @@ public class game {
                     int AngKaAcak=angkaRandom.nextInt(Pang); 
                     for(Kout=0;Kout<=5;Kout++){
         */
-       
-    }
+        Scanner input = new Scanner(System.in);
+        Scanner input2= new Scanner(System.in); 
+        Random angkaRandom=new Random(); 
+        String cariY; 
+        do{
+            System.out.println("Masukkan 'Nama' atau tekan 'y' untuk keluar,tekan enter = ");
+            cariY=input.nextLine();
+            /*
+            else if(Kout==1){
+             
+            */
+            
 }
