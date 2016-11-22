@@ -45,5 +45,14 @@ public class game {
             else if(Kout==1){
              
             */
+            namaPemain.add(cariY);
+            int NilaiJalan = 0; 
+            int CekGameOver=0;
             
+            int aKumulasi[]= new int[6];
+            int NilaiPasJalan=0;
+            
+            if(!("y").equals(cariY)){  
+              
+                
 }
