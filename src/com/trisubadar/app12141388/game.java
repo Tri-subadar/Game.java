@@ -75,5 +75,10 @@ public class game {
                     
                     */
                     int AngKaAcak=angkaRandom.nextInt(Pang); 
-                    for(Kout=0;Kout<=5;Kout++)
+                    for(Kout=0;Kout<=5;Kout++){
+                        if(Kout==5){ 
+                            System.out.println("GAMEOVER! Gagal");
+                            CekGameOver++; 
+                        }
+                        
 }
