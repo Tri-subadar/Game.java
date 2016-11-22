@@ -96,5 +96,21 @@ public class game {
                    
       
                                 */
-                                   
+                                    else if(Kout==1){
+                                    NilaiPasJalan=PiLevel*70; 
+                                        }
+                                     else if(Kout==2){
+                                    NilaiPasJalan=PiLevel*50; 
+                                     }
+                                     /*
+                                     System.out.println("Anda mempunyai kesempatan menebak 5 kali.");
+                    int AngKaAcak=angkaRandom.nextInt(Pang); 
+                    for(Kout=0;Kout<=5;Kout++){
+                                     */
+                                     else if(Kout==3){
+                                    NilaiPasJalan=PiLevel*30; 
+                                    }
+                                    else{
+                                    NilaiPasJalan=0; 
+                                     }
 }
