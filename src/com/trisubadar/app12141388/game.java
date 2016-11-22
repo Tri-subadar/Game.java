@@ -5,10 +5,9 @@
  */
 package com.trisubadar.app12141388;
 
+
 /**
  *
  * @author user
  */
-public class game {
-    
-}
+ 
