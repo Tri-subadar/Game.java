@@ -132,5 +132,26 @@ public class game {
 
                                     System.out.println("Tebakan terlalu Kecil! mempunyai kesempatan " + Kurang + " kali lagi" );
                                 }
-                            
+                            }
+                        }
+                    }
+                 
+                    if(CekGameOver>0){
+                        break;
+                    }
+                    
+                    if(PiLevel==5){ 
+                        break;
+                    }
+                    /*
+                     else{
+                    aKumulasi[StarNilaiO]=NilaiPasJalan;    
+                    System.out.println(" ");
+                    
+                    
+                    nextLevel=input.nextLine();
+                    
+                   
+                    */
+                    
 }
