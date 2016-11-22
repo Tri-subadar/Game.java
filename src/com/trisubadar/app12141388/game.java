@@ -161,5 +161,12 @@ public class game {
                     
                     }
                    
-               
+                }
+                while(!"exit".equals(nextLevel));
+            } 
+            
+            for(int rO=0; rO<5; rO++){
+                // membuat array nilai pada tiap level
+                NilaiJalan=NilaiJalan+aKumulasi[rO];  
+            }
 }
