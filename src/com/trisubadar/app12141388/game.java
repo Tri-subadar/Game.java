@@ -113,4 +113,12 @@ public class game {
                                     else{
                                     NilaiPasJalan=0; 
                                      }
+                                
+                                int NeTebak=Kout+1;
+                        
+                                System.out.println("Anda berhasil menebak dalam " + NeTebak + " kali tebakan. Sekor " + NilaiPasJalan);
+                                break;
+
+                            }
+                            
 }
