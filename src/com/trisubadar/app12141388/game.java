@@ -120,5 +120,17 @@ public class game {
                                 break;
 
                             }
+                            else{
+                                if(AkuTeb>AngKaAcak){
+                                    System.out.println("Tebakan terlalu Besar! mempunyai kesempatan " + Kurang + " kali lagi" );
+                                }
+                                /*
+                                else if(Kout==1){
+                                    NilaiPasJalan=PiLevel*
+                                */
+                                else{
+
+                                    System.out.println("Tebakan terlalu Kecil! mempunyai kesempatan " + Kurang + " kali lagi" );
+                                }
                             
 }
