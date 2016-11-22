@@ -169,4 +169,23 @@ public class game {
                 // membuat array nilai pada tiap level
                 NilaiJalan=NilaiJalan+aKumulasi[rO];  
             }
+            sekorPermainan.add(NilaiJalan);
+            
+            
+        }        
+        while(!"y".equals(cariY));
+        int jumPemain=namaPemain.size(); 
+        
+        System.out.println("SCORE AKHIR");
+        System.out.println("=================================");
+        /*
+        System.out.println("SCORE AKHIR");
+        System.out.println for(l=0;l<jumPemain-1;l++){
+        
+        */
+        int l;
+        for(l=0;l<jumPemain-1;l++){
+            System.out.println(namaPemain.get(l) + " : " + sekorPermainan.get(l));
+        }
+    }
 }
